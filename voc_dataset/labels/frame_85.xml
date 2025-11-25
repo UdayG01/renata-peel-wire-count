@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>frame_85.jpg</filename>
+	<path>C:\Work\Renata\Peel Wire\yolo_dataset\images\frame_85.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>478</width>
+		<height>850</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>machine</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>76</xmin>
+			<ymin>313</ymin>
+			<xmax>332</xmax>
+			<ymax>566</ymax>
+		</bndbox>
+	</object>
+</annotation>

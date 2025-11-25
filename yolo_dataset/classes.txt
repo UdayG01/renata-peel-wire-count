@@ -1,0 +1,3 @@
+intact_wire
+machine
+peeled_wire

@@ -1,0 +1,73 @@
+{
+  "summary": {
+    "total_peeling_operations": 3,
+    "total_frames_processed": 266,
+    "machine_area_detected": true,
+    "machine_area_coordinates": [
+      0,
+      "172",
+      "456",
+      "652"
+    ],
+    "processing_timestamp": "2025-07-15T18:49:28.492065"
+  },
+  "detection_counts": {
+    "intact_wire": 147,
+    "machine": 266,
+    "peeled_wire": 140
+  },
+  "operations_log": [
+    {
+      "frame": 67,
+      "wire_id": 2,
+      "timestamp": 1752585561.727032,
+      "machine_area": [
+        0,
+        "166",
+        "466",
+        "658"
+      ],
+      "wire_position": [
+        167.5,
+        421.0
+      ]
+    },
+    {
+      "frame": 157,
+      "wire_id": 7,
+      "timestamp": 1752585564.7816684,
+      "machine_area": [
+        0,
+        "182",
+        "458",
+        "659"
+      ],
+      "wire_position": [
+        177.5,
+        443.0
+      ]
+    },
+    {
+      "frame": 236,
+      "wire_id": 7,
+      "timestamp": 1752585567.4882188,
+      "machine_area": [
+        0,
+        "177",
+        "451",
+        "668"
+      ],
+      "wire_position": [
+        172.0,
+        435.0
+      ]
+    }
+  ],
+  "parameters": {
+    "confidence_threshold": 0.25,
+    "iou_threshold": 0.45,
+    "machine_area_buffer": 125,
+    "max_wire_distance": 150,
+    "peeling_cooldown_frames": 5
+  }
+}

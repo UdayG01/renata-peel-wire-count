@@ -1,0 +1,21 @@
+YOLO Video Inference Statistics
+========================================
+
+Timestamp: 2025-07-15 18:45:21
+Model: models\best.pt
+Input video: assets\output\input_video
+Output video: assets\output\output video.mp4
+Device: cuda
+Confidence threshold: 0.25
+IoU threshold: 0.45
+
+Processing Results:
+  Processed frames: 266/266
+  Processing time: 14.95 seconds
+  Average FPS: 17.79
+  Total detections: 553
+
+Detections by class:
+  intact_wire: 147 (26.6%)
+  machine: 266 (48.1%)
+  peeled_wire: 140 (25.3%)

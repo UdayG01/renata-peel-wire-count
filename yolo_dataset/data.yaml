@@ -1,0 +1,9 @@
+train: ./images/train
+val: ./images/val
+
+nc: 2  # Number of classes
+
+names:
+  0: intact_wire
+  1: machine
+  2: peeled_wire
